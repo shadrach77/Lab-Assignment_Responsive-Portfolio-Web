@@ -23,6 +23,8 @@ body {
 /* About Me Container */
 
 header {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 100vw;
   background-color: blue;
@@ -61,6 +63,49 @@ header > nav > ul > a {
   font-size: 1.2em;
 }
 
+/* main-section-1 */
+#main-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 4rem;
+  gap: 2rem;
+}
+
+#main-section-1-title {
+  font-size: 6em;
+  font-weight: 600;
+}
+
+#main-section-1-below-title {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  background-color: orange;
+  gap: 1.2rem;
+}
+
+#main-section-1-below-title > div {
+  font-size: 1.4rem;
+}
+
+#main-section-1-below-title > button {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: fit-content;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+#main-section-1-below-title > button > img {
+  height: 1.5rem;
+  transform: rotate(90deg);
+}
+
 @media (min-width: 768px) {
   /* Navbar */
 
@@ -74,5 +119,22 @@ header > nav > ul > a {
   header > nav > ul {
     display: flex;
     margin-right: 4rem;
+  }
+
+  /* Main Section 1 */
+
+  #main-section-1-title {
+    font-size: 8em;
+    font-weight: 600;
+  }
+
+  #main-section-1-below-title {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  #main-section-1-below-title > div {
+    max-width: 28rem;
   }
 }
