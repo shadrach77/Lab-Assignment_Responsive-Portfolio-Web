@@ -60,7 +60,7 @@ header > nav > ul > a {
   color: black;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 /* main-section-1 */
@@ -106,6 +106,72 @@ header > nav > ul > a {
   transform: rotate(90deg);
 }
 
+/* Main Section 2 */
+#main-section-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-color: rgb(174, 0, 0);
+}
+
+#main-section-2-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+#main-section-2-heading-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#main-section-2-heading-more {
+  font-weight: 400;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+#main-section-2-heading-more > img {
+  height: 1.5rem;
+}
+
+#collection-of-cards {
+  display: flex;
+  flex: 1;
+  padding: 0rem 4rem 2rem 4rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.subcollection-of-cards {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  gap: 2rem;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: #065512;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+}
+
 @media (min-width: 768px) {
   /* Navbar */
 
@@ -136,5 +202,11 @@ header > nav > ul > a {
 
   #main-section-1-below-title > div {
     max-width: 28rem;
+  }
+
+  /* Main Section 2 */
+
+  #collection-of-cards {
+    flex-direction: row;
   }
 }
