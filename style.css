@@ -27,7 +27,6 @@ header {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-color: blue;
 }
 
 #main-section-1 {
@@ -41,7 +40,6 @@ header > nav {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: aqua;
 }
 
 header > nav > div {
@@ -81,7 +79,6 @@ header > nav > ul > a {
   display: flex;
   flex-direction: column-reverse;
   width: 100%;
-  background-color: orange;
   gap: 1.2rem;
 }
 
@@ -114,7 +111,7 @@ header > nav > ul > a {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  background-color: rgb(174, 0, 0);
+  background-color: black;
 }
 
 #main-section-2-heading {
@@ -122,6 +119,7 @@ header > nav > ul > a {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 4rem;
+  color: white;
 }
 
 #main-section-2-heading-title {
@@ -138,7 +136,7 @@ header > nav > ul > a {
 }
 
 #main-section-2-heading-more > img {
-  height: 1.5rem;
+  height: 1rem;
 }
 
 #collection-of-cards {
@@ -160,7 +158,7 @@ header > nav > ul > a {
 .card {
   width: 100%;
   height: 100%;
-  background: #065512;
+  color: white;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -180,7 +178,7 @@ header > nav > ul > a {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  background-color: rgb(0, 23, 174);
+  margin-bottom: 12rem;
 }
 
 #main-section-3-heading {
@@ -192,7 +190,6 @@ header > nav > ul > a {
 .project-card {
   width: 100%;
   height: 100%;
-  background: #065512;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -241,7 +238,6 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: beige;
   }
 
   header > nav > ul {
